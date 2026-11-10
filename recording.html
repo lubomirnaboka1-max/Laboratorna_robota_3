@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="uk">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Запис на прийом — Друзі Тварин</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <header>
+    <h1>Запис на прийом</h1>
+    <nav>
+      <ul>
+        <li><a href="index.html">Головна</a></li>
+        <li><a href="main_2.html">Про нас</a></li>
+        <li><a href="recording.html">Записатися</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <main>
+    <section>
+      <h2>Форма запису до ветеринара</h2>
+      <form action="#" method="post">
+        <label for="name">Ваше ім'я:</label>
+        <input type="text" id="name" name="name" placeholder="Введіть ім'я" required>
+
+        <label for="phone">Номер телефону:</label>
+        <input type="tel" id="phone" name="phone" placeholder="+380..." required>
+
+        <label for="animal">Вид тварини:</label>
+        <select id="animal" name="animal">
+          <option>Кіт</option>
+          <option>Собака</option>
+          <option>Інша тварина</option>
+        </select>
+
+        <label for="date">Дата прийому:</label>
+        <input type="date" id="date" name="date">
+
+        <label for="message">Коментар:</label>
+        <textarea id="message" name="message" rows="4" placeholder="Опишіть проблему"></textarea>
+
+        <button type="submit">Надіслати заявку</button>
+      </form>
+    </section>
+    <p><a href="index.html">← Назад на головну</a></p>
+  </main>
+
+  <aside>
+    <h3>Навігація по сайту</h3>
+    <ol>
+      <li><a href="index.html">Головна</a></li>
+      <li><a href="main_2.html">Про клініку</a></li>
+      <li><a href="recording.html">Запис на прийом</a></li>
+    </ol>
+  </aside>
+
+  <footer>
+    <p>© 2026 Ветлікарня «Друзі Тварин»</p>
+    <p><a href="https://www.instagram.com/">Instagram</a> |
+       <a href="https://www.facebook.com/">Facebook</a> |
+       <a href="https://www.youtube.com/">YouTube</a></p>
+  </footer>
+</body>
+</html>
